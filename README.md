@@ -10,4 +10,8 @@ npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.ts
+npx hardhat ignition deploy ./ignition/modules/task3/NftAuction.ts
+npx hardhat ignition deploy ./ignition/modules/task3/NftAuctionFactory.ts
+npx hardhat ignition deploy ./ignition/modules/task3/NftAuctionV2.ts
+
 ```
